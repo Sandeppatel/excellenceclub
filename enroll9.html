@@ -1,20 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enroll Page</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-  <h2>hello</h2>
-  <h2>hello</h2>
-  <h2>hello</h2>
-  <h2>hello</h2>
-  <h2>hello</h2>
-  <h2>hello</h2>
-  <h2>hello</h2>
-  <h2>hello</h2>
-  <h2>hello</h2>
-  <h2>hello</h2>
+<body class="min-h-screen bg-gray-100 flex flex-col items-center justify-center">
+  <!-- Header -->
+  <h1 class="text-4xl font-bold mb-8 text-emerald-700">Welcome</h1>
+  
+  <!-- Buttons Section -->
+  <div class="flex flex-col space-y-6">
+    <!-- Video Button -->
+    <a href="video.html" 
+       class="w-[30vh] text-center bg-blue-500 text-white py-4 px-6 rounded-md hover:bg-blue-600 transition-colors shadow-lg">
+      Watch Video
+    </a>
+
+    <!-- PDF Handwriting Notes Button -->
+    <a href="handwriting-notes.pdf" 
+       class="w-[30vh] text-center bg-green-500 text-white py-4 px-6 rounded-md hover:bg-green-600 transition-colors shadow-lg">
+      Handwriting Notes (PDF)
+    </a>
+
+    <!-- Computer PDF Notes Button -->
+    <a href="choise9.html" 
+       class="w-[30vh] text-center bg-purple-500 text-white py-4 px-6 rounded-md hover:bg-purple-600 transition-colors shadow-lg">
+      MCQ question
+    </a>
+  </div>
 </body>
 </html>
